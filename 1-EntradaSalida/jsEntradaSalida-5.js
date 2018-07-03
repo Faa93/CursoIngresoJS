@@ -7,8 +7,9 @@ function Mostar()
 
 	nombre=document.getElementById('elNombre').value;
 	edad=document.getElementById('laEdad').value;
+	//antes de hacer esto puse el nombre al final de todo, pero me acorde que se asigna de derecha a izquierda
 
-	alert("usted se llama"+" " + nombre +" " +"y tiene"+" " + edad + " " + "años");
+	alert(" Usted se llama "+ nombre + " y tiene " + edad+ " años");
 
 }
 
