@@ -10,24 +10,69 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  */
 function CalcularPrecio () 
 {
- 	var lamparitas;
+ 	var cantidadLamparitas;
  	var descuento;
  	var marca;
  	var precio;
+ 	var preciobruto;
 
- 	lamparitas=document.getElementById('Cantidad').value;
- 	marca=document.getElementById('Marca')value;
+ 	cantidadLamparitas=document.getElementById('Cantidad').value;
+ 	marca=document.getElementById('Marca').value;
 
  	precio=35;
+ 	preciobruto = precio * cantidadLamparitas;
  	precio=parseInt(precio);
- 	
+ 
 
- 		if(lamparitas>6){
- 			descuento=precio*lamparitas;
- 			document.getElementById('precioDescuento').value=;
+ 		if(cantidadLamparitas>=6){
+ 			descuento=preciobruto*0.50;
+ 			alert(descuento);
+ 			} else if(cantidadLamparitas ==5 && marca=="ArgentinaLuz" ){
+ 			descuento=preciobruto*0.4;
+ 				}else if(cantidadLamparitas==5){
+ 					descuento=preciobruto*0.3;
+ 					}else if(cantidadLamparitas==4 && marca="ArgentinaLuz" || marca="FelipeLamparas"){
+ 					 	descuento=preciobruto*0.25;
+							}else if(marca="JeLuz" || marca="Osram" || marca="HazIluminacion" ){
+								descuento=preciobruto*0.2;
+								}else if (cantidadLamparitas ==3 && marca="ArgentinaLuz") {
+									descuento=preciobruto*0.5;
+									}else if (cantidadLamparitas == 3 && marca= "FelipeLamparas") {
+										descuento=preciobruto*0.1;
+										}else if()
 
- 		}
 
-
+						}
 }
-//ESTA MAL
+
+/*
+hacer parcial 1 y 2
+hacer ferrete iluminacion en:
+if
+
+switch
+
+switch()
+{
+ if()
+}
+
+
+if(){
+	switch()
+}
+
+
+
+
+HACER E/S 1-10 DEVUELTA
+	IF 	1- 10 DEVUELTA
+	SWITCH 1 - 6 DEVUELTA
+	PARCIAL 1-3 
+	RECUPERATORIO 1 - 3
+
+	FERRETERIA FERRETI 
+	HACERLO EN IF IF
+	SWITCH SWITCH
+	SWTICH IF
+	IF SWITCH
