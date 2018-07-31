@@ -15,6 +15,8 @@ numero=parseInt(numero);
 		numero=prompt("Ingrese el numero");
 		numero=parseInt(numero);
 		suma=numero+suma;
+		
+
 	}
 	
 	document.getElementById('suma').value=suma;

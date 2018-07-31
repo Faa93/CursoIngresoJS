@@ -16,6 +16,7 @@ function Mostrar()
 		numero=prompt("Ingrese un numero #"+contador);
 		numero=parseInt(numero);
 
+ 
 
 		if(contador==1)
 		{
