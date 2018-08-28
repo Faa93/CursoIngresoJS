@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1535417434 source:d:\facundo gonzalez\maximosminimos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
